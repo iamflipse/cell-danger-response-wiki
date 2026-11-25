@@ -1,0 +1,7 @@
+[book]
+title = "Cell Danger Response & The Health Cycle"
+authors = ["iamflipse"]
+description = "Study wiki distilling the public first half of A Midwestern Doctor's 'Systemic Treatments for the Cell Danger Response' (2023) and Dr. Robert Naviaux's Healing Cycle & Six Cardinal Elements of the Health Cycle."
+
+[output.html]
+git-repository-url = "https://github.com/iamflipse/cell-danger-response-wiki"
