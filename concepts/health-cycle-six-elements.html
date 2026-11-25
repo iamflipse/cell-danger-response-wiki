@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>The Health Cycle &amp; Six Cardinal Elements - Cell Danger Response &amp; The Health Cycle</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="Study wiki distilling the public first half of A Midwestern Doctor&#x27;s &#x27;Systemic Treatments for the Cell Danger Response&#x27; (2023) and Dr. Robert Naviaux&#x27;s Healing Cycle &amp; Six Cardinal Elements of the Health Cycle.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Overview</a></li><li class="chapter-item expanded affix "><li class="part-title">Cell Danger Response & The Health Cycle</li><li class="chapter-item expanded "><a href="../about.html"><strong aria-hidden="true">1.</strong> About & Source Scope</a></li><li class="chapter-item expanded "><a href="../concepts/health-cycle-six-elements.html" class="active"><strong aria-hidden="true">2.</strong> The Health Cycle & Six Cardinal Elements</a></li><li class="chapter-item expanded "><a href="../concepts/cultivating-health-vs-disease-model.html"><strong aria-hidden="true">3.</strong> Cultivating Health vs. Disease-Centered Medicine</a></li><li class="chapter-item expanded "><a href="../concepts/what-is-cdr.html"><strong aria-hidden="true">4.</strong> What Is the Cell Danger Response (CDR)?</a></li><li class="chapter-item expanded "><a href="../concepts/healing-cycle-phases.html"><strong aria-hidden="true">5.</strong> The Healing Cycle: CDR1, CDR2, CDR3</a></li><li class="chapter-item expanded "><a href="../concepts/rebooting-salugenesis.html"><strong aria-hidden="true">6.</strong> Rebooting the Healing Cycle (Salugenesis)</a></li><li class="chapter-item expanded "><a href="../concepts/purinergic-signaling-blocking-cdr.html"><strong aria-hidden="true">7.</strong> Extracellular ATP, Purinergic Signaling & Mast Cells</a></li><li class="chapter-item expanded "><a href="../concepts/autism-suramin-isr.html"><strong aria-hidden="true">8.</strong> Antipurinergic Therapy, Suramin & ISR</a></li><li class="chapter-item expanded "><a href="../concepts/clinical-practice-principles.html"><strong aria-hidden="true">9.</strong> Working with the CDR in Clinical Practice</a></li><li class="chapter-item expanded "><a href="../concepts/endocrine-metabolism-diet.html"><strong aria-hidden="true">10.</strong> Hormone Resistance, Fasting & Ketogenic Metabolism</a></li><li class="chapter-item expanded "><a href="../concepts/dormant-tissue-regenerative-frame.html"><strong aria-hidden="true">11.</strong> Dormant Tissue, Scars, Aging & Neurodegeneration</a></li><li class="chapter-item expanded "><a href="../reference/quotes-and-glossary.html"><strong aria-hidden="true">12.</strong> Key Quotes & Glossary</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Cell Danger Response &amp; The Health Cycle</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/iamflipse/cell-danger-response-wiki" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="the-health-cycle--six-cardinal-elements"><a class="header" href="#the-health-cycle--six-cardinal-elements">The Health Cycle &amp; Six Cardinal Elements</a></h1>
+<p>In his work on the Cell Danger Response, <strong>Dr. Robert K. Naviaux</strong> draws a sharp distinction between the <strong>Healing Cycle</strong> (temporary cellular defense and repair triggered by injury or threat) and the <strong>Health Cycle</strong> (the daily physiological state that builds resilience and prevents chronic defense states from locking in).</p>
+<p>To enter and sustain the Health Cycle, Naviaux identifies six core inputs—a process he calls <strong>salugenesis</strong> (actively generating health rather than merely fighting pathology):</p>
+<blockquote>
+<p>&quot;The six cardinal elements of the health cycle are 1) wakeful activity, 2) nutrient intake, 3) waste and toxin removal, 4) social connection [and positive social support], 5) nature connection, and 6) restorative sleep. Absence of, or abnormalities in, any of the cardinal elements of the health cycle can lead to pluricausal disease [while] their presence contributes to the building of functional reserve capacity and resilient health over the weeks and months after injury or illness.&quot;
+— <strong>Dr. Robert K. Naviaux</strong>, quoted in <a href="https://www.midwesterndoctor.com/p/systemic-treatments-of-the-cell-danger"><em>Systemic Treatments for the Cell Danger Response</em></a></p>
+</blockquote>
+<h2 id="breaking-down-the-six-elements"><a class="header" href="#breaking-down-the-six-elements">Breaking Down the Six Elements</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Element</th><th>Role in the Health Cycle</th><th>What Happens When Missing or Disrupted</th></tr></thead><tbody>
+<tr><td><strong>1. Wakeful activity</strong></td><td>Signals purposeful demand, metabolic turnover, and physical movement without crossing into exhaustion</td><td>Deconditioning on one extreme, or post-exertional &quot;crashes&quot; when pushed past tolerance</td></tr>
+<tr><td><strong>2. Nutrient intake</strong></td><td>Supplies cellular building blocks for tissue rebuilding (CDR2) and normal differentiation (CDR3)</td><td>Cells lack substrates to repair and re-enter energy-producing metabolism</td></tr>
+<tr><td><strong>3. Waste &amp; toxin removal</strong></td><td>Clears chemical stressors, cellular debris, and metabolic byproducts so danger alarms quiet down</td><td>Sub-toxic accumulation compounds past the body's tipping point and re-triggers the CDR</td></tr>
+<tr><td><strong>4. Social connection</strong></td><td>Provides positive social support that feeds safety and security signaling through the brain and nervous system</td><td>Isolation or threat reinforces sympathetic fight-or-flight tone and danger signaling</td></tr>
+<tr><td><strong>5. Nature connection</strong></td><td>Aligns the body with natural environmental cues (light/dark, temperature, unhurried rhythms)</td><td>Modern artificial environments desynchronize circadian and autonomic regulation</td></tr>
+<tr><td><strong>6. Restorative sleep</strong></td><td>Delivers deep delta-wave sleep and parasympathetic nervous system safety signals across the body</td><td>Fragmented sleep or sedative-suppressed sleep prevents systemic termination of the CDR</td></tr>
+</tbody></table>
+</div>
+<h2 id="pluricausal-disease-vs-functional-reserve-capacity"><a class="header" href="#pluricausal-disease-vs-functional-reserve-capacity">Pluricausal Disease vs. Functional Reserve Capacity</a></h2>
+<p>Naviaux's framing resolves two common puzzles in chronic illness:</p>
+<ol>
+<li><strong>Pluricausal disease:</strong> Chronic conditions rarely stem from a single broken part. Deficits across several of the six elements lower the threshold at which an infection, toxin, trauma, or emotional shock tips cells into a sustained <a href="what-is-cdr.html">Cell Danger Response</a>.</li>
+<li><strong>Functional reserve capacity:</strong> Cultivating all six elements doesn't act like an overnight drug—it gradually rebuilds reserve capacity <strong>over weeks and months</strong> following injury or illness.</li>
+</ol>
+<h2 id="the-seasonal-timeline-3-months"><a class="header" href="#the-seasonal-timeline-3-months">The Seasonal Timeline (~3 Months)</a></h2>
+<p>According to clinical observations shared in the essay, stabilizing a newly recovered baseline takes roughly <strong>three months (&quot;the length of a season&quot;)</strong>. During that fragile post-recovery window, an abrupt return of stressors—or even over-eager therapies—can easily re-trigger the CDR pattern before the Health Cycle has consolidated.</p>
+<hr />
+<p><strong>Next:</strong> <a href="cultivating-health-vs-disease-model.html">Cultivating Health vs. Disease-Centered Medicine</a> · <strong>Related:</strong> <a href="rebooting-salugenesis.html">Rebooting the Healing Cycle (Salugenesis)</a> · <a href="what-is-cdr.html">What Is the CDR?</a></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../about.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../concepts/cultivating-health-vs-disease-model.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../about.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../concepts/cultivating-health-vs-disease-model.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>
